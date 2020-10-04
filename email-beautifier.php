@@ -39,7 +39,5 @@ require plugin_dir_path(__FILE__).'includes/EB.php';
 function run_EB(){
 	$plugin = new EB();
 	$plugin->run();
-
 }
-
 run_EB();
